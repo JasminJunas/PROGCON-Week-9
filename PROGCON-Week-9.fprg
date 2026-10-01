@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROGCON-Week-9"/>
+        <attribute name="authors" value="Jasmin Junas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-01 10:31:03 AM"/>
+        <attribute name="created" value="SmFzbWluIEp1bmFzO0xBUFRPUC1SUDhWMlJSUjsyMDI2LTEwLTAxOzEwOjI3OjI5IEFNOzM1MjY="/>
+        <attribute name="edited" value="SmFzbWluIEp1bmFzO0xBUFRPUC1SUDhWMlJSUjsyMDI2LTEwLTAxOzEwOjMxOjAzIEFNOzE7MzYyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="rainbowColors" type="String" array="True" size="7"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="6" direction="inc" step="1">
+                <output expression="&quot;Hello and welcome! Please enter color &quot; &amp; (i + 1) &amp;&quot; of the rainbow:&quot;" newline="True"/>
+                <input variable="rainbowColors[i]"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
